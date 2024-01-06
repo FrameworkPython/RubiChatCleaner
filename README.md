@@ -16,7 +16,7 @@
   ```
 ## **آموزش اجرا کردن در Termux**
 برای اجرای این اسکریپت در ترموکس اول پکیج هارو اپدیت کنید
-```python
+```bash
 apt update -y && apt upgrade -y
 ```
 سپس git و python رو نصب کنید 
@@ -25,4 +25,14 @@ pkg install git -y && pkg install python -y
 ```
 سپس اسکریپت رو دانلود کنید 
 ```bash
-git clone 
+git clone https://github.com/FrameworkPython/RubiChatCleaner
+```
+سپس وارد پوشه اسکریپت بشید 
+```bash
+cd RubiChatCleaner
+```
+و در آخر میتونید سورس رو با دستور زیر اجرا کنید
+```bash
+python AccountCleaner.py
+```
+- توجه ⚠️:
