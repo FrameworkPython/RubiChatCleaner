@@ -35,4 +35,4 @@ cd RubiChatCleaner
 ```bash
 python AccountCleaner.py
 ```
-- توجه ⚠️:
+- توجه ⚠️: اگه میخواید بعضی چت ها حذف نشن، باید guid اون چت هارو به دست بیارید و در لاین 41 و در قسمت safe_guid وارد کنید 
