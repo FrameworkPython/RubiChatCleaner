@@ -14,7 +14,7 @@
   logging
   concurrent.futures
   ```
-## **آموزش اجرا کردن در Termux**
+## **آموزش اجرا کردن در [Termux](https://f-droid.org/repo/com.termux_118.apk)**
 برای اجرای این اسکریپت در ترموکس اول پکیج هارو اپدیت کنید
 ```bash
 apt update -y && apt upgrade -y
