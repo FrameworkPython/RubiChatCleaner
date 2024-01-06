@@ -14,3 +14,15 @@
   logging
   concurrent.futures
   ```
+## **آموزش اجرا کردن در Termux**
+برای اجرای این اسکریپت در ترموکس اول پکیج هارو اپدیت کنید
+```bash
+apt update -y && apt upgrade -y
+```
+سپس git و python رو نصب کنید 
+```bash
+pkg install git -y && pkg install python -y
+```
+سپس اسکریپت رو دانلود کنید 
+```bash
+git clone 
