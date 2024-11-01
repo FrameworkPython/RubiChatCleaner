@@ -61,5 +61,5 @@ class Cleaner:
                 executor.map(lambda chat: self.handle_chat(chat, option), self.chats)
         else:
             print("Invalid option selected.")
-
+#لیست گویید هایی که نمیخواید پاک شه رو در قسمت safe_guids بزارید
 my_cleaner = Cleaner(session="AccCleaner", safe_guids=["guid1", "guid2"])
