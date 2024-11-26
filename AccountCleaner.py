@@ -37,7 +37,7 @@ class Cleaner:
 
     def handle_chat(self, chat, option):
         object_guid = chat['object_guid']
-        if object_guid not in self.safe_guids and object_guid != self.own_guid:  # بررسی گویید خود اکانت
+        if object_guid not in self.safe_guids and object_guid != self.own_guid: 
             if option == '1' and object_guid.startswith('u'):
                 last_deleted_message_id = chat['last_message']['message_id']
                 self.delete_user_chat(object_guid, last_deleted_message_id)
